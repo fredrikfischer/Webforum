@@ -1,0 +1,360 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    color:#fff;
+    background-image: url('../images/blue background3.png');
+    background-repeat: repeat;
+    background-size: 2000px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: left;
+    max-width: 600px;
+    background-color: #f3f3f3;
+    padding: 10px 0 10px 0;
+    border: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5)
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor:pointer;
+}
+
+#Fischers-forum{
+    color:#f4f4f4;
+}
+
+#Fischers-forum:hover{
+    color:rgba(117, 137, 202, 0.5);
+}
+
+
+
+button {
+    display:block;
+    width: 140px;
+    height: 50px;
+    background-color: rgba(117, 137, 202, 0.5);
+    color: #282828;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 1000;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #282828;
+    color: #f4f4f4;
+}
+
+p {
+    display: block;
+    margin: 5px auto;
+  }
+
+  textarea {
+      resize: none;
+  }
+
+  header {
+    min-height:100px;
+    background-color: rgba(42, 49, 73, 0.7);
+	border-bottom: 1px solid black;
+	color: #f4f4f4;
+	padding: 25px 40px 0 40px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 70px;
+}
+
+header h1 {
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float:left;
+    display: inline;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 0;
+    text-shadow: 0 3px 3px #030303;
+  
+}
+
+header nav {
+    margin-top: 0px;
+    margin-right: 130px;
+    margin-left: 0;
+}
+
+header form {
+    
+    margin-left:0;
+    margin-top: 0px;
+    display: inline;
+	margin-right: 10px;
+    float: right;
+}
+
+header button {
+    background-color: #f4f4f4;
+}
+
+header button:hover {
+    color: #f4f4f4;
+    background-color:rgba(42, 49, 73, 0.7);
+}
+
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	color: black;
+	padding: 20px 0 0 40px;
+}
+
+
+.form {
+	padding: 10px 40px 50px 40px;	
+}
+
+.form-control {
+    color:black;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	position: relative;
+}
+
+.form-control label {
+    font-size: large;
+    color:rgb(31, 29, 19);
+}
+
+.form-control input {
+    margin: 5px 0;
+   width: 100%;
+   height: 35px;
+   border: 1px solid black;
+   border-radius: 10px;
+   padding-left: 5px;
+}
+
+.form-control.success input {
+	border-color: green;
+}
+
+.form-control.success textarea {
+	border-color: green;
+}
+
+.logsign-formbox.success input {
+	border-color: green;
+}
+
+
+.form-control.error input {
+	border-color: red;
+}
+
+.form-control.error textarea {
+	border-color: red;
+}
+
+.logsign-formbox.error input {
+	border-color: red;
+}
+
+
+.form-control textarea {
+    margin-top: 10px;
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+
+.form-control small {
+	color: red;
+
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+}
+
+.form-control #fileinput {
+    border: none;
+    margin-bottom: 0;
+}
+
+.comment-box {
+    color: black;
+    width: 600px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #282828;
+    font-weight: 400;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5)
+}
+
+.logsign-box {
+    color: black;
+    max-width: 600px;
+    padding: 30px 50px 30px 50px;
+    background-color: #f7f7f7;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    border: 1px solid #282828;
+    font-weight: 400;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5)
+
+}
+.logsign-box input {
+    margin: 5px 0;
+   width: 100%;
+   height: 35px;
+   border: 1px solid black;
+   border-radius: 10px;
+   padding-left: 5px;
+}
+
+
+.logsign-box label {
+    font-size: large;
+    color:rgb(31, 29, 19);
+}
+
+
+.logsign-box button {
+    width: 30%;
+    margin-top: 10px;
+}
+.redirect button {
+    margin-left: 85%;
+}
+
+#commentUsername {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#postedCommentUsername {
+    font-weight: bold;
+}
+
+.postedCommentDate {
+    
+    font-size: x-small;
+    color: rgba(0, 0, 0, 0.55)
+    
+}
+
+
+.postedThreadTopic {
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+#threadTopic {
+    font-size: medium;
+    font-weight: bold;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3)
+}
+
+
+.postedThreadUsername {
+    font-size: small;
+   
+}
+
+#GoToThreadForm{
+padding-top: 0;
+padding-bottom: 0;
+}
+
+#GoToThreadForm button{
+    display:block;
+    width: 125px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+#thread-box {
+    color: #282828;
+    margin-bottom: 10px;
+    
+}
+
+.boxAroundText{
+    padding:10px;
+    border: 1px solid #bbbbbb;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+   
+
+#myprofile input {
+    margin-top:0;
+    display: inline;
+    width: 75%;
+    }
+
+#myprofile button {
+    display: inline;
+    margin-top: 0px;
+    margin-left: 0;
+    width: 120px;
+    height: 35px;
+  
+}
+
+#errortext {
+    margin-top: 0px;
+    margin-right: 20px;
+    float: right;
+    display: inline;
+    color: red;
+}
+
+.logsign-box h1 {
+    margin-top: 0px;
+}
+
+#errorMessage-myprofile {
+    color: red;
+    font-size: 0,8em;
+}
+
+#usernameForm{
+    margin: 0;
+    padding: 0;
+}
+
+.xx-smalltext{
+    font-size: xx-small;
+}
