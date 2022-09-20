@@ -1,6 +1,6 @@
 # Webforum
 
-Detta var en koduppfift på kursen "E-tjänster och webprogrammering" på Uppsala Universitet. Uppgiften fick betyget VG.
+Detta var en koduppgift på kursen "E-tjänster och webprogrammering" på Uppsala Universitet. Uppgiften fick betyget VG.
 
 - Programmeringsskråk som används är HTML, CSS, Javascript/Jquery, PHP och SQL. 
 - Forumet använder AJAX för automatisk uppdatering av forumets inlägg. 
