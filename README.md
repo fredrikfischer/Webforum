@@ -2,7 +2,7 @@
 
 Detta var en koduppgift på kursen "E-tjänster och webprogrammering" på Uppsala Universitet. Uppgiften fick betyget VG.
 
-- Programmeringsskråk som används är HTML, CSS, Javascript/Jquery, PHP och SQL. 
+- Programmeringsspråk som används är HTML, CSS, Javascript/Jquery, PHP och SQL. 
 - Forumet använder AJAX för automatisk uppdatering av forumets inlägg. 
 - Användaren måste skapa ett konto för att få tillgång till forumet
 - Användaren kan skapa trådar samt kommentera på befintliga trådar. 
